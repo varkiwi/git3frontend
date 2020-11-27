@@ -1,8 +1,11 @@
 module.exports = {
-  GIT_FACTORY_ADDRESS: '0x3bFF586A6Cab36Bb87Da89df1d9578691e3328a1',
-  RPC_ADDRESS: 'https://rpc-mumbai.matic.today',
+  // GIT_FACTORY_ADDRESS: '0x3bFF586A6Cab36Bb87Da89df1d9578691e3328a1',
+  // RPC_ADDRESS: 'https://rpc-mumbai.matic.today',
+  GIT_FACTORY_ADDRESS: '0x5DD6E7D5F20a3ae586cFf4a03A54e51c32F02541',
+  RPC_ADDRESS: 'https://rpc-mainnet.maticvigil.com/v1/f632570838c8d7c5e5c508c6f24a0e23eabac8c7',
   FACTORY_ENS_NAME: 'factory.git3.eth',
-  FACTORY_ADDRESS: '0xA30faFf4bBf01267c770bEF461b404Fd2b7d533e',
+  // FACTORY_ADDRESS: '0xA30faFf4bBf01267c770bEF461b404Fd2b7d533e',
+  // FACTORY_ADDRESS: '0x5DD6E7D5F20a3ae586cFf4a03A54e51c32F02541',
   GIT_FACTORY_INTERFACE: [
     {
       anonymous: false,
@@ -619,9 +622,8 @@ module.exports = {
     },
   ],
   IPFS_MULTIADDR: '/ip4/127.0.0.1/tcp/5001',
-  // IPFS_ADDRESS: 'http://127.0.0.1:5001',
   IPFS_ADDRESS: 'https://ipfs.infura.io:5001',
-  MATIC_RPC: 'https://rpc-mumbai.matic.today',
+  // MATIC_RPC: 'https://rpc-mumbai.matic.today',
   GOERLI_RPC: 'https://eth-goerli.gateway.pokt.network/v1/5f8b320bb90218002e9cea2b',
   COINGECKO_URL: 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ethereum',
 };
